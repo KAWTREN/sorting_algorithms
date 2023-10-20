@@ -11,7 +11,7 @@ void quick_sort(int *array, size_t size)
 	_quick_sort(array, 0, size - 1, size);
 }
 /**
- * quick_sort - Recursive function to perform the Quick sort
+ * _quick_sort - Recursive function to perform the Quick sort
  * @array: The array to be sorted
  * @low: The low index of the partition
  * @high: The high index of the partition

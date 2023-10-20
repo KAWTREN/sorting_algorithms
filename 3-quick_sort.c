@@ -19,10 +19,11 @@ void quick_sort(int *array, size_t size)
  */
 void _quick_sort(int *array, int low, int high, size_t size)
 {
+	int pivot_index;
+
 	if (low < high)
 	{
-		int pivot_index = lomuto_partition(array, low, high, size);
-
+		pivot_index = lomuto_partition(array, low, high, size);
 		_quick_sort(array, low, pivot_index - 1, size);
 		_quick_sort(array, pivot_index + 1, high, size);
 	}

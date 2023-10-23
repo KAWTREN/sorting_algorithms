@@ -35,5 +35,9 @@ void quick_sort_hoare(int *array, size_t size);
 void _quick_sort(int *array, int low, int high, size_t size);
 int lomuto_partition(int *array, int low, int high, size_t size);
 void swap(int *num1, int *num2);
+void swap(int *num1, int *num2);
+int calc_list_size(listint_t *list);
+listint_t *get_last_node(listint_t *list);
+listint_t *swap_list(listint_t *list, listint_t *curr2);
 
 #endif
